@@ -394,3 +394,34 @@ h3{
 .contact-me ul a{
     color: black;
 }
+button {
+  left         : 600px;
+  top          : 360px;
+  margin-top: 12px;
+  padding      : 5px;
+
+  font         : bold .6em sans-serif;
+  border       : 3px solid #C0C0C0;
+  border-radius: 7px;
+  background   : #000000;
+  color: #D8BFD8;
+  cursor       : pointer;
+
+-webkit-transform: rotate(-1.5deg);
+   -moz-transform: rotate(-1.5deg);
+    -ms-transform: rotate(-1.5deg);
+     -o-transform: rotate(-1.5deg);
+        transform: rotate(-1.5deg);
+}
+
+button:after {
+  content: " >>>";
+    color: #C0C0C0
+}
+
+button:hover,
+button:focus {
+  outline   : none;
+  background: #D8BFD8;
+  color   : #C0C0C0;
+}
